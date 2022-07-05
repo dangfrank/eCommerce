@@ -1,0 +1,53 @@
+@charset "UTF-8";
+* {
+	margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}
+
+.content {
+	display: float;
+	height: 800px;
+	width: 100%;
+}
+
+
+.dashboard {
+	float: left;
+	height: 800px;
+	width: 20%;
+	background-color: #2b3245;	
+	
+	padding: 10px; 
+	
+}
+.dashboard h4 {
+	color: #ee8824;
+}
+
+.admin-body {
+	float: right;
+	height: 800px;
+	width: 80%;
+}
+.admin-logout {
+	float: right;
+	color: blue;
+	padding: 15px;
+}
+.admin-background {
+	height: 40%;
+	background: url("/PRJ321x_-_Assignment_3/img/fpt-university.jpg")
+}
+.admin-info {
+	height: 60%;
+	background-color: #1a2034;
+	padding: 15px;
+}
+.admin-info h2 {
+	color: white;
+	background-color: #87379e;
+}
+.table-dark {
+	background-color:  #20293f;
+}

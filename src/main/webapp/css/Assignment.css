@@ -1,0 +1,127 @@
+@charset "UTF-8";
+* {
+	margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: Arial;
+	padding: 10px;
+	background: white;
+}
+#login {
+	float: right;
+	
+}
+
+.header {
+	padding: 15px;
+	text-align: center;
+	background: #222f3c;
+	display: flex;
+	width: 100%;
+}
+.header-left {
+	width : 30%;
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 5px;
+	margin-top: 20px;
+}
+.header-right {
+	width: 70%;
+	float: right;
+	padding: 30px;
+}
+.header h1 {
+	font-size: 50px;
+}
+.header img {
+	width: 300px;
+	padding: 0px;
+}
+.header .searchbutton {
+	background-color: #ee8824;
+    height: 38px;
+    width: 38px;
+    padding: 10px;
+}
+.header .searchbar {
+	width: 100%;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #293847;
+}
+.topnav a {
+	float: left;
+	display: block;
+	color: #ee8824;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.topnav a:hover {
+	background-color: #ccc;
+	color: #ee8824;
+}
+#login {
+	margin-right: 10px;
+	line-height: 100%;
+}
+.leftcolumn {
+	float: left;
+	width: 75%;
+}
+.rightcolumn {
+	float: left;
+	width: 25%;
+	background-color: #f1f1f1;
+	padding-left: 20px;
+}
+.fakeimg {
+	background-color: #aaa;
+	width: 100%;
+	padding: 20px;
+}
+.card {
+	background-color: white;
+	padding: 20px;
+	margin-top: 20px;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.footer {
+	text-align: center;
+	background: #222f3c;
+	color: #ee8824;
+	padding: 20px;
+
+}
+.footer a {
+	text-decoration: none;
+	color: #ee8824; 
+}
+.space-footer {
+	height: 30px;
+	background-color: #293847;
+}
+@media screen and (max-width: 800px) {
+	.lefcolumn, .rightcolumn {
+	width: 100%;
+	padding: 0;
+	}
+}
+@media screen and (max-width: 400px) {
+	.topnav a {
+	float: none;
+	width: 100%;
+	
+	}
+}

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+.signin {
+	display: flex;
+	height: 600px;
+	padding: 20px;
+	background-color: white;
+}
+.signin-child {
+	flex: 1;
+	background-color: white;
+}
+.mt-3 {
+	margin-top: 0!important;
+}
+.signin-info {
+	background-color: #0f1130;
+	color: white;
+	text-align: center;
+	
+}
+.signin-info h1, h4 {
+	margin-top: 30%;
+	padding: 10px;
+}
+.signin-form h2{
+	
+	padding: 15px;
+	margin-top: 80px;
+	text-align: center;
+}
+.login_rightbottom {
+	margin-top: 15px;
+}

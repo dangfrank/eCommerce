@@ -1,0 +1,22 @@
+@charset "UTF-8";
+*{
+	box-sizing: border-box;
+}
+.content {
+	
+	margin: 20px;
+}
+.detail_img {
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+.detail_img img {
+	cursor: pointer;
+}
+.img-fluid {
+	padding: 30px;
+
+}
+.pro_name{
+	color: #293847;
+}

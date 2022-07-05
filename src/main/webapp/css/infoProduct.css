@@ -1,0 +1,14 @@
+@charset "UTF-8";
+.titlename {
+	padding: 15px;
+}
+.titlename p {
+	font-size: x-large;
+}
+.row {
+	margin-bottom: 50px;
+}
+.price {
+	font-size: xx-large;
+	color: red;
+}
